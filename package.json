@@ -13,13 +13,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/AZEB21/nestjs-applicant-management/issues"
   },
   "homepage": "https://github.com/AZEB21/nestjs-applicant-management#readme",
   "dependencies": {
-    "@prisma/client": "^7.10.1",
+    "@prisma/client": "^6.19.3",
     "bcrypt": "^6.0.0",
     "cors": "^2.8.6",
     "dotenv": "^18.0.8",
@@ -33,8 +33,9 @@
     "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^26.6.5",
     "@types/swagger-ui-express": "^4.1.8",
-    "prisma": "^8.0.0-rc.23",
+    "prisma": "^6.19.3",
     "ts-node-dev": "^2.0.0",
+    "tsx": "^4.23.15",
     "typescript": "^6.0.3"
   }
 }
